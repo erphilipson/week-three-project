@@ -1,0 +1,49 @@
+body {
+  max-width: 30vw;
+  max-height: 50vw;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 40vw;
+}
+
+.button{
+  background: #64B255;
+  border: 0.5px solid white;
+  color: white;
+  display: flex;
+  flex-basis: 25%;
+  font-size: 2vw;
+  padding-left: 3.5vw;
+}
+
+#c:hover {
+  background: #83C178;
+}
+
+#divide, #multiply, #subtract, #add {
+  background: #83C178;
+  color: black;
+}
+
+#divide:hover, #multiply:hover, #subtract:hover, #decimal:hover, #equals:hover, #add:hover {
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.calculator > input {
+  background: #64B255;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  flex-basis: 73.7%;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: right;
+}
